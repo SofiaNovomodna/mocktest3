@@ -1,4 +1,5 @@
 def f(word):
+    word=word.lower()
     i=0
     result= ''
     while i<len(word):
@@ -10,3 +11,4 @@ def f(word):
 
 
 print(f('ware'))
+
